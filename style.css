@@ -1,9 +1,20 @@
-body {background-color: rgb(250, 188, 188);}
-h1   {color: rgb(156, 46, 31);}
+body {background-color: #fabcbc;}
+p {font-size: large;}
+h1   {color: #4d190f;}
 h2   {color: rgb(77, 25, 15);}
 #green {color:green;}
 .yellow {color:yellow;}
 p    {color: rgb(0, 0, 0);}
 #map{
-    width: 20%
+    width: 40%;
+    padding-left: 10px;
+}
+
+#marocpng{
+    width:80%;
+}
+#bigtext {
+    display:inline-flex;
+    width: 100%;
+    padding: 10px;
 }
