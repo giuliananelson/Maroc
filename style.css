@@ -2,10 +2,13 @@ body {background-color: #fabcbc;}
 p {font-size: large;}
 h1   {color: #4d190f;}
 h2   {color: #4d190f;}
-c1 {color:#4d190f}
 #green {color:green;}
 .yellow {color:yellow;}
 p    {color: rgb(0, 0, 0);}
+a {
+    color: #044822;
+width: 30% 
+}
 #map{
     width: 40%;
     padding-left: 10px;
@@ -26,4 +29,11 @@ p    {color: rgb(0, 0, 0);}
     display:inline-flex;
     width: 100%;
     padding: 10px;
+}
+button {
+    cursor: url('star.png'), auto;
+}
+
+input[type='text'] {
+  cursor: text;
 }
