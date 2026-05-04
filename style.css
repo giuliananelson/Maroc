@@ -1,7 +1,10 @@
 body {background-color: #fabcbc;}
-p {font-size: large;}
-h1   {color: #4d190f;}
-h2   {color: #4d190f;}
+p {font-size: large;
+font-family: Arial, Helvetica, sans-serif;}
+h1   {color: #4d190f;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+h2   {color: #4d190f;
+font-family: Arial, Helvetica, sans-serif;}
 #green {color:green;}
 .yellow {color:yellow;}
 p    {color: rgb(0, 0, 0);}
