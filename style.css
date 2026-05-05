@@ -34,8 +34,7 @@ font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     padding: 10px;
 }
-button {color: #fabcbc; background-color: #4d190f; font-family: Arial, Helvetica, sans-serif;}
-buttonagain {color: #fabcbc; background-color: #044822; font-family: Arial, Helvetica, sans-serif;}
+button {color: #fabcbc; background-color: #044822; font-family: Arial, Helvetica, sans-serif;} 
 
 body {
   /* Use a 32x32px image for best results */
