@@ -1,4 +1,6 @@
-body {background-color: #fabcbc;}
+body {background-color: #fabcbc; 
+     cursor: url("star.png") default ;
+}
 p {font-size: large;
 font-family: Arial, Helvetica, sans-serif;
 color:#4d190f; }
@@ -36,7 +38,3 @@ font-family: Arial, Helvetica, sans-serif;
 }
 button {color: #fabcbc; background-color: #044822; font-family: Arial, Helvetica, sans-serif;} 
 
-body {
-  /* Use a 32x32px image for best results */
-  cursor: url('star.png'), auto;
-}
