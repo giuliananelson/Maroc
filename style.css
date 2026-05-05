@@ -1,6 +1,5 @@
-body {background-color: #fabcbc; 
-     cursor: url("star.png") default ;
-}
+body {background-color: #fabcbc;
+ cursor: url('star.png'), default; }
 p {font-size: large;
 font-family: Arial, Helvetica, sans-serif;
 color:#4d190f; }
