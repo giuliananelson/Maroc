@@ -1,5 +1,5 @@
 body {background-color: #fabcbc;
- cursor: url('star.png'), default; }
+ cursor: url('starb.png'), default; }
 p {font-size: large;
 font-family: Arial, Helvetica, sans-serif;
 color:#4d190f; }
@@ -11,7 +11,8 @@ font-family: Arial, Helvetica, sans-serif;}
 .yellow {color:yellow;}
 a {
     color: #044822;
-width: 30% ;
+width: 50% ;
+font-size: large;
 font-family: Arial, Helvetica, sans-serif;
 }
 #map{
@@ -30,6 +31,7 @@ font-family: Arial, Helvetica, sans-serif;
 }
 #jewishschool{
     width:40%; 
+    padding-right: 30px;
 }
 #bigtext {
     display:inline-flex;
@@ -39,17 +41,64 @@ font-family: Arial, Helvetica, sans-serif;
 #images {
     display:inline-flex;
     width: 100%;
-    padding: 10px;
+    padding: 5px;
 }
-#jewishschool {
-    padding-right: 30px;
+#sstamp{
+    padding-left: 5px;
+    width:50%;
 }
 #firstcaption{
-    padding-right:400px ;
+    padding-left: 10px;
+    padding-right:675px ;
+}
+#secondcaption{
+    padding-right:390px ;
 }
 button {color: #fabcbc; background-color: #044822; font-family: Arial, Helvetica, sans-serif; font-size: larger;
 } 
 #modernimages{ 
 display:inline-flex;
-    width: 70%;
+    width: 100%;
 }
+
+
+
+
+
+
+.nav {
+  height: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #4d190f;
+}
+
+.nav__logo { 
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4d190f;
+    
+}
+
+.nav__menu ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav__menu ul li {
+  list-style: none;
+}
+
+.nav__menu ul li a {
+  text-decoration: none;
+  color: #4d190f;
+  padding: 1rem;
+  display: block;
+}
+
+.nav__menu li:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
